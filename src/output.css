@@ -245,6 +245,9 @@
   .h-\[500px\] {
     height: 500px;
   }
+  .h-\[540px\] {
+    height: 540px;
+  }
   .h-\[700px\] {
     height: 700px;
   }
@@ -444,6 +447,12 @@
   .bg-\[\#5096FF\] {
     background-color: #5096FF;
   }
+  .bg-\[\#5096ff72\] {
+    background-color: #5096ff72;
+  }
+  .bg-\[\#5096ffb3\] {
+    background-color: #5096ffb3;
+  }
   .bg-\[\#A98AF5\] {
     background-color: #A98AF5;
   }
@@ -503,6 +512,9 @@
   }
   .pt-\[30px\] {
     padding-top: 30px;
+  }
+  .pt-\[300px\] {
+    padding-top: 300px;
   }
   .pl-\[20px\] {
     padding-left: 20px;
@@ -666,6 +678,11 @@
       height: 800px;
     }
   }
+  .md\:h-\[850px\] {
+    @media (width >= 48rem) {
+      height: 850px;
+    }
+  }
   .md\:w-50 {
     @media (width >= 48rem) {
       width: calc(var(--spacing) * 50);
@@ -694,6 +711,11 @@
   .md\:w-\[60\%\] {
     @media (width >= 48rem) {
       width: 60%;
+    }
+  }
+  .md\:w-\[60\] {
+    @media (width >= 48rem) {
+      width: 60;
     }
   }
   .md\:w-\[70\%\] {
